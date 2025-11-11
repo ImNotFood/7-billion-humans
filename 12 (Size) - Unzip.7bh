@@ -1,16 +1,11 @@
 -- 12: Unzip --
--- Size Challenge: 11/8 --
--- Speed Challenge: 18s/7s --
+-- Size Challenge: 8/8 --
 -- Move the leftmost data cube one tile up. --
 -- Move the next data cube one tile down. --
 -- Next up. Next down. --
 -- And so on, like unzipping a zipper. --
 
 pickup c
-if w == wall:
-  step n
-  drop
-endif
 
 loop:
 if nw == datacube:
@@ -18,7 +13,7 @@ if nw == datacube:
   drop
 endif
 
-if sw == datacube:
+if sw == datacube or w == wall:
   step n
   drop
 endif
