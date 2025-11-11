@@ -1,0 +1,12 @@
+-- 9: Dynamic Angles --
+-- Size Challenge: 5/5 --
+-- Make a diagonal line with the data cubes. --
+-- The data cube with no workers above it must remain where it is. --
+
+main:
+step s
+drop
+if nw != datacube:
+  pickup c
+endif
+jump main
