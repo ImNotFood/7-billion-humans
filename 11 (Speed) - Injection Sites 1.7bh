@@ -1,0 +1,28 @@
+-- 11: Injection Sites 1 --
+-- Speed Challenge: 6s/7s --
+-- Fill the data gaps in each row. --
+-- Order does not matter. --
+
+step s
+pickup c
+step s
+step s
+step s
+if c == nothing:
+  drop
+endif
+step s
+step s
+if c == nothing:
+  drop
+endif
+step s
+step s
+if c == nothing:
+  drop
+endif
+step s
+step s
+if c == nothing:
+  drop
+endif
