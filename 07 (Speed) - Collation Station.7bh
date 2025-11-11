@@ -1,0 +1,27 @@
+-- 7: Collation Station --
+-- Speed Challenge: 6s/6s --
+-- Organize the data cubes into a nice line along the bottom row, above the hole. --
+
+step s
+if c == datacube:
+  pickup c
+endif
+step s
+if c == datacube:
+  pickup c
+endif
+step s
+if c == datacube:
+  pickup c
+endif
+step s
+if c == datacube:
+  pickup c
+endif
+step s
+if c == datacube:
+  pickup c
+endif
+step s
+drop
+step s
