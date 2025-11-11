@@ -1,17 +1,12 @@
 -- 7: Collation Station --
+-- Size Challenge: 5/5 --
 -- Organize the data cubes into a nice line along the bottom row, above the hole. --
 
 main:
+step s
+pickup c
+
 if s == hole:
   drop
-  jump end
 endif
-
-if c == datacube:
-  pickup c
-endif
-
-step s
 jump main
-
-end:
