@@ -1,0 +1,8 @@
+-- 4: Long Distance Delivery --
+-- Workers must pick up their cube, then walk until they fall into the pit. --
+
+step e
+pickup c
+loop:
+step e
+jump loop
