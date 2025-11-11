@@ -1,0 +1,17 @@
+-- 6: Little Exterminator 1 --
+-- Speed Challenge: 4s/4s --
+-- Have the little worker follow the path to the cube without falling into a hole. --
+
+step s
+step s
+step w
+step w
+step s
+step s
+step e
+step e
+step e
+step s
+step s
+step s
+pickup c
