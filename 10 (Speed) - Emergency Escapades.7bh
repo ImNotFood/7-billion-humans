@@ -1,0 +1,76 @@
+-- 10: Emergency Escapades --
+-- Speed Challenge: 15s/25s --
+-- Find your way to the emergency exit! --
+-- First, make your way towards any data cube. --
+-- Then, move based on what the cube says. --
+
+-- 1: Step up --
+-- 2: Step right --
+-- 3: Step down --
+-- 4: Step left --
+
+if n == hole:
+  step w
+  step w
+  step w
+  a:
+  step w
+  if w == hole:
+    step sw
+  else:
+    jump a
+  endif
+  step sw
+  jump g
+endif
+
+if s == wall:
+  step w
+  step w
+  step w
+  step w
+  step nw
+  step nw
+  if sw != hole:
+    step sw
+  else:
+    step w
+    step sw
+  endif
+  jump c
+endif
+
+step w
+step w
+step w
+f:
+step w
+if s == hole and sw != hole:
+  step sw
+  jump d
+endif
+if w == hole:
+  step nw
+  step sw
+  jump e
+endif
+jump f
+
+g:
+c:
+d:
+e:
+step s
+step s
+step w
+step w
+step w
+step w
+step w
+step n
+step n
+step n
+step n
+step n
+step n
+step w
