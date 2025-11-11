@@ -1,0 +1,18 @@
+-- 5: An Important Decision --
+-- Each worker has a data cube either on their left or right side. --
+-- Walk toward that cube and continue walking in that direction so you fall into the nice safe hole. --
+-- Any other hole leads to instant doom. --
+
+if w == datacube:
+  step w
+  pickup c
+  west:
+  step w
+  jump west
+endif
+
+step e
+pickup c
+east:
+step e
+jump east
