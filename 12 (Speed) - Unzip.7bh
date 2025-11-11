@@ -1,0 +1,26 @@
+-- 12: Unzip --
+-- Speed Challenge: 4s/7s --
+-- Move the leftmost data cube one tile up. --
+-- Move the next data cube one tile down. --
+-- Next up. Next down. --
+-- And so on, like unzipping a zipper. --
+
+pickup c
+
+loop:
+if se == worker or sw == worker or w == wall:
+  step n
+  drop
+  jump a
+endif
+
+if nw == worker or ne == worker or e == wall:
+  step s
+  drop
+  jump b
+endif  
+
+jump loop
+
+a:
+b:
