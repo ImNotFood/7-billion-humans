@@ -1,0 +1,14 @@
+-- 9: Dynamic Angles --
+-- Speed Challenge: 5s/6s --
+-- Make a diagonal line with the data cubes. --
+-- The data cube with no workers above it must remain where it is. --
+
+step s
+pickup c
+
+main:
+step s
+if nw == datacube:
+  drop
+endif
+jump main
