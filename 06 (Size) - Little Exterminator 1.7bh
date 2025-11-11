@@ -1,0 +1,19 @@
+-- 6: Little Exterminator 1 --
+-- Size Challenge: 9/9 --
+-- Have the little worker follow the path to the cube without falling into a hole. --
+
+a:
+b:
+if s == hole:
+  if e != hole:
+    step e
+    jump a
+  endif
+  step w
+  step w
+endif
+
+step s
+pickup c
+
+jump b
