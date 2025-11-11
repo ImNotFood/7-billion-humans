@@ -1,0 +1,35 @@
+-- 13: Injection Sites 2 --
+-- Speed Challenge: 29s/55s --
+-- Fill the data gaps in each row. --
+
+step s
+pickup c
+step w
+
+loop:
+step s
+step s
+drop
+step e
+step e
+step e
+step e
+step e
+step e
+drop
+step e
+drop
+
+step s
+step s
+drop
+step w
+step w
+step w
+step w
+step w
+step w
+drop
+step w
+drop
+jump loop
