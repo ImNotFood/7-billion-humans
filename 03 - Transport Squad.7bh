@@ -1,0 +1,8 @@
+-- 3: Transport Squad --
+-- Workers must move the line of data cubes down by two tiles. --
+
+step s
+pickup c
+step s
+step s
+drop

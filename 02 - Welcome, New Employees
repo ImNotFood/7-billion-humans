@@ -1,6 +1,0 @@
--- 2: Welcome, New Employees --
--- Workers must step down one tile, pick up their green cube, and drop it.
-
-step s
-pickup c
-drop
