@@ -1,0 +1,24 @@
+-- 13: Injection Sites 2 --
+-- Size Challenge: 12/10 --
+-- Fill the data gaps in each row. --
+
+step s
+pickup c
+
+outer_loop:
+a:
+step w
+if w != wall:
+  jump a
+endif
+
+step s
+step s
+
+inner_loop:
+drop
+step e
+if e != wall:
+  jump inner_loop
+endif
+jump outer_loop
