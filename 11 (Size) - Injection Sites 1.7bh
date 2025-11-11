@@ -1,0 +1,12 @@
+-- 11: Injection Sites 1 --
+-- Speed Challenge: 5/5 --
+-- Fill the data gaps in each row. --
+-- Order does not matter. --
+
+main:
+step s
+pickup c
+if w == datacube:
+  drop
+endif
+jump main
